@@ -1,0 +1,51 @@
+# ------------------------------
+# Python cache files
+# ------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ------------------------------
+# Virtual environments
+# ------------------------------
+.env/
+venv/
+env/
+
+# ------------------------------
+# IDE / Editor files
+# ------------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ------------------------------
+# Jupyter Notebook checkpoints
+# ------------------------------
+.ipynb_checkpoints/
+
+# ------------------------------
+# System files
+# ------------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------------
+# Logs
+# ------------------------------
+*.log
+
+# ------------------------------
+# Temporary files
+# ------------------------------
+*.tmp
+*.temp
+
+# ------------------------------
+# Optional: Ignore large files
+# (Uncomment if needed)
+# ------------------------------
+# data.csv
+# best_model.pkl
