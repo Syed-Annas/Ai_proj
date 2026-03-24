@@ -1,4 +1,4 @@
-<<mm<<<<<< HEAD
+
 # Breast Cancer Diagnosis AI
 
 ## Project Overview
