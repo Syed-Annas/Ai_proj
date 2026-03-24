@@ -257,7 +257,7 @@ def split_and_scale_data(df_clean):
         st.error(f"An error occurred during data splitting/scaling: {e}")
         return None, None, None, None, None
 
-@st.cache_data # Cache model training and evaluation
+@st.cache_data # cache model training and evaluation
 def train_and_evaluate(X_train_scaled, y_train, X_test_scaled, y_test):
     """Trains multiple models and evaluates their performance."""
     if X_train_scaled is None or y_train is None or X_test_scaled is None or y_test is None:
