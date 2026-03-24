@@ -211,6 +211,20 @@ Open the URL shown in your terminal (typically `http://localhost:8501`).
 - Dataset referenced in the dashboard: UCI Machine Learning Repository
   - "Breast Cancer Wisconsin (Diagnostic)"
   - https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)
+  - ## How to Run
+
+1. Install the required libraries:
+   pip install -r requirements.txt
+
+2. Run the main dashboard:
+   python dashboard.py
+
+## Project Files
+
+- `dashboard.py` - main application/dashboard
+- `data.csv` - dataset used in the project
+- `best_model.pkl` - saved trained model
+- `requirements.txt` - required Python libraries
 
 ## Suggested next steps (optional)
 
