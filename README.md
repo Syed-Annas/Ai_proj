@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+<<mm<<<<<< HEAD
 # Breast Cancer Diagnosis AI
 
 ## Project Overview
@@ -203,7 +203,7 @@ Open the URL shown in your terminal (typically `http://localhost:8501`).
 
 - The dashboard retrains all models on startup (subject to Streamlit caching). For quick reloads this is fine, but for production deployment you may want to train once and reuse a persisted model.
 - `data.csv` must exist in the same folder as `dashboard.py` (default `load_data(file_path="data.csv")`).
-- Feature group selection in EDA relies on column naming substrings (for example, selecting groups like `radius`, `texture`, etc.). If you replace `data.csv` with a differently named schema, some EDA controls may show empty results.
+- Feature group selection in EDA relies on column naming substrings (for example, selecting groups like `radius`, `texture`, etc.). If you replace `data.csv` with a differently named schema, some EDA controls may show empty results and untraceable outputs.
 - The "feature importance" visualization in the best-model page is simulated; it is not computed from the trained model inside `dashboard.py`.
 
 ## Credit & references
